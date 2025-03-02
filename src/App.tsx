@@ -3,6 +3,12 @@ import valvImage from "./assets/valv.png";
 import heroSideImage from "./assets/image1.png";
 import heroSideImage2 from "./assets/image2.png";
 import heroSideImage3 from "./assets/image3.png";
+import heroSideImage4 from "./assets/aditya.png"
+import heroSideImage5 from "./assets/Screenshot 2025-03-02 at 12.05.52 AM.png"
+import heroSideImage6 from "./assets/tito.png"
+import heroSideImage7 from "./assets/shrey.png"
+
+
 
 import presentationVideo from "./assets/Valv.mp4";
 
@@ -59,7 +65,32 @@ function App() {
       <section className="contact" id="contact">
         <h2>Get in Touch</h2>
         <p>Have questions? Reach out to us!</p>
-        <a href="mailto:info@valv.com" className="btn">Contact Us</a>
+        <div className="hero-side-image-container">
+        <div className="image-container">
+  <div className="image-item">
+    <img src={heroSideImage4} alt="Hero Side4" className="hero-side-image4" width="200" height="350" />
+    <div>Aditya</div>
+    <div>aaditya@udel.edu</div>
+  </div>
+  <div className="image-item">
+    <img src={heroSideImage5} alt="Hero Side5" className="hero-side-image5" width="350" height="200" />
+    <div>Shivansh</div>
+    <div>shivansh@udel.edu</div>
+  </div>
+  <div className="image-item">
+    <img src={heroSideImage6} alt="Hero Side6" className="hero-side-image6" width="200" height="350" />
+    <div>Tito</div>
+    <div>tolubaki@udel.edu</div>
+  </div>
+  <div className="image-item">
+    <img src={heroSideImage7} alt="Hero Side7" className="hero-side-image7" width="350" height="200" />
+    <div>Shreyas</div>
+    <div>nair@udel.edu</div>
+  </div>
+</div>
+
+
+        </div>        <a href="mailto:info@valv.com" className="btn">Contact Us</a>
       </section>
 
       {/* Footer */}

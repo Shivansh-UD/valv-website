@@ -109,6 +109,29 @@ body {
   transform: scale(1.05);
 }
 
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly with gaps */
+  gap: 10px; /* Adds a 10px gap between the items */
+}
+
+.image-item {
+  text-align: center; /* Centers the name under the image */
+}
+
+.hero-side-image4,
+.hero-side-image5,
+.hero-side-image6,
+.hero-side-image7 {
+  display: block; /* Ensures images are treated as block elements */
+  margin: 0 auto; /* Centers the images within each div */
+}
+
+
+
+
+
+
 .hero {
   height: 100vh;
   display: flex;
